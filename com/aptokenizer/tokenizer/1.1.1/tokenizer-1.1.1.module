@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.aptokenizer",
+    "module": "tokenizer",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tokenizer-1.1.1.aar",
+          "url": "tokenizer-1.1.1.aar",
+          "size": 200137,
+          "sha512": "0c3d36d4c18a6b39a2267df89f155d5a60cfe53ace2a85d446171d54b950c4faf8d81432f6e10940868e97357fcb83c088cadbe19122cdc6a2773f270f958682",
+          "sha256": "b4d121fc37ba8b41bada4c18436eecaa144c43fcc7cff5cdd79ea1f2ecb51e64",
+          "sha1": "68446d548bff7db840e9ba5477fba4b3d73c5386",
+          "md5": "963ee413414116761001e1c66eefe608"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material"
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2026.03.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tokenizer-1.1.1.aar",
+          "url": "tokenizer-1.1.1.aar",
+          "size": 200137,
+          "sha512": "0c3d36d4c18a6b39a2267df89f155d5a60cfe53ace2a85d446171d54b950c4faf8d81432f6e10940868e97357fcb83c088cadbe19122cdc6a2773f270f958682",
+          "sha256": "b4d121fc37ba8b41bada4c18436eecaa144c43fcc7cff5cdd79ea1f2ecb51e64",
+          "sha1": "68446d548bff7db840e9ba5477fba4b3d73c5386",
+          "md5": "963ee413414116761001e1c66eefe608"
+        }
+      ]
+    }
+  ]
+}
